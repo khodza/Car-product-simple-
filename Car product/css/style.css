@@ -1,0 +1,149 @@
+/* ***************************** */
+/* HEADER */
+/* ***************************** */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9.6rem;
+  background-color: #e7f3f7;
+  padding: 4.8rem;
+}
+.nav-list {
+  display: flex;
+  gap: 3.2rem;
+  list-style: none;
+  align-items: center;
+}
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #0f7ca0;
+}
+.nav-link.cta:link,
+.nav-link.cta:visited {
+  background-color: #118ab2;
+  padding: 1.2rem 2.4rem;
+  color: #fff;
+  border-radius: 9px;
+}
+.nav-link.cta:hover,
+.nav-link.cta:active {
+  background-color: #0f7ca0;
+}
+.logo {
+  height: 12rem;
+}
+/* ***************************** */
+/* HERO SECTION */
+/* ***************************** */
+.hero-section {
+  background-color: #e7f3f7;
+  padding: 4.8rem 0 9.6rem 0;
+}
+.hero {
+  display: grid;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+.hero-img {
+  width: 100%;
+}
+.hero-description {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 4.8rem;
+}
+.face-img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  margin-left: -1.6rem;
+  border: #e7f3f7 3px solid;
+}
+.delivered-img {
+  display: flex;
+  align-items: center;
+}
+.delivered-cars {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin-top: 8rem;
+}
+.delivered-number {
+  font-size: 1.8rem;
+  color: #333;
+  font-weight: 500;
+}
+.delivered-number span {
+  font-weight: 600;
+  color: #0f7ca0;
+}
+/* ***************************** */
+/* SSECTION HOW iIT WORS*/
+/* ***************************** */
+.how {
+  padding: 9.6rem 0;
+}
+.step-img-box {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.step-img {
+  width: 50%;
+  height: auto;
+}
+.subheading {
+  font-weight: 00;
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  color: #0f7ca0;
+}
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 500;
+  color: #ddd;
+  margin-bottom: 1.2rem;
+}
+.step-description {
+  font-size: 1.8rem;
+}
+.step-img-box:before,
+.step-img-box:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.step-img-box::before {
+  background-color: #e7f3f7;
+  width: 60%;
+  padding-bottom: 60%;
+  z-index: -2;
+}
+.step-img-box::after {
+  background-color: #b8dce8;
+  width: 50%;
+  padding-bottom: 50%;
+  z-index: -1;
+}
